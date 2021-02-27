@@ -1,5 +1,5 @@
-def is_cheap_set(a,b,c,d,e):
-    cheap1 = min(a,b,c)
+def is_cheap_set(aa,b,c,d,e):
+    cheap1 = min(aa,b,c)
     cheap2 = min(d,e)
     total = cheap1 + cheap2 - 50
     return total
